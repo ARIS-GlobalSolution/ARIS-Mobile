@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "ARIS",
+    "slug": "ARIS",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/splash-icon.png",
+    "scheme": "agroorbit",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./src/assets/logo.png"
+    },
+    "android": {
+      "adaptiveIcon": {
+          "backgroundColor": "#1A0F0C",
+          "foregroundImage": "./src/assets/logo.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "single",
+      "favicon": "./src/assets/favicon.ico"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#1A0F0C",
+          "android": {
+            "image": "./src/assets/logo.png",
+            "imageWidth": 76
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "reactCompiler": true
+    }
+  }
+}
